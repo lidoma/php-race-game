@@ -1,0 +1,22 @@
+{
+    "name": "php-race-game/lidoma",
+    "type": "project",
+    "description": "A CLI-Based Two-Player Vehicle Racing Game in PHP",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Game\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "bin-compat": "full"
+    },
+    "minimum-stability": "dev",
+        "prefer-stable": true
+}
